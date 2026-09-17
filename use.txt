@@ -1,0 +1,6 @@
+python ./ultralytics/engine/exporter.py
+
+yolo predict model=D:\code\ultralytics_yolov8-main\runs\train\exp2\weights\best.pt source=D:\code\ultralytics_yolov8-main\dataset\test\images\7_png.rf.56af7afe5d8a9e5038e8272d215faae7.jpg imgsz=640 conf=0.25 save=True
+
+set PYTHONPATH=%cd%
+python ultralytics/engine/exporter.py

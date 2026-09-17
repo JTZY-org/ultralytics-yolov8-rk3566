@@ -1,0 +1,13 @@
+train: D:\code\ultralytics_yolov8\dataset\train
+val: D:\code\ultralytics_yolov8\dataset\valid
+test: D:\code\ultralytics_yolov8\dataset\test
+
+nc: 2
+names: ['cube','person']
+
+roboflow:
+  workspace: yxp-giimc
+  project: mot-odplk
+  version: 3
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/yxp-giimc/mot-odplk/dataset/3
